@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Activity 02</title>
+</head>
+<body>
+    <form action="display.php" method="post">
+        First Name:
+        <input type="text" name="fname"><br><br>
+
+        Last Name:
+        <input type="text" name="lname"><br><br>
+
+        Status:
+        <select name="status">
+            <option>Single</option>
+            <option>Married</option>
+        </select><br><br>
+
+        DOB:
+        <input type="date" name="January"><br><br>
+
+        Address:
+        <input type="text" name="Bacolod"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
