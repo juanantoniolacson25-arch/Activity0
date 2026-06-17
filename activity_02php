@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Activity 02</title>
+    </head>
+    <body>
+        if (isset ($_POST["btnSubmit"])){
+            echo "<a href='activity_02.php >Back</a.";
+
+        } else {
+        ?>
+        <form method="post" action="activity_02.php">
+            
+        }
